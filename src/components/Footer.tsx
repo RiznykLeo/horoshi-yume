@@ -44,7 +44,17 @@ function Footer() {
 
       <div className='flex items-center justify-between px-16 py-4 bg-zinc-900 text-white'>
         <p>Copyright ©2022 Horoshiyume</p>
-
+        <p className='text-xs'>
+          Developed by&nbsp;
+          <a
+            href='https://github.com/RiznykLeo'
+            target='_blank'
+            className='cursor-pointer'
+            rel='noreferrer'
+          >
+            Leonid Riznyk
+          </a>
+        </p>
         <ul className='flex justify-center gap-4 flex-wrap uppercase'>
           <li>
             <a href=''>Bio</a>
