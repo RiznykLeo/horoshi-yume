@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <div className='bg-zinc-50 h-[2000px]'>
       <Navbar />
       <Content />
       <Footer />
